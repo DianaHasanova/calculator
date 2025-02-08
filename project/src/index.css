@@ -8,26 +8,31 @@
 
 body {
   height: 100vh;
-  background: #f4fefe;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: 'Roboto', sans-serif;
+
+  background-image: url('https://get.wallhere.com/photo/color-background-faded-surface-671019.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .screen {
   height: 2rem;
   margin-bottom: 3rem;
   text-align: right;
-  color: white;
+  color: #ab6388;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
 }
 
 .wrapper {
-  background: #71717e;
-  width: 20rem;
+  background: #ffffff;
+  width: 30rem;
   margin-top: 4rem;
+  border-radius: 10px;
 }
 
 .buttonBox {
@@ -36,7 +41,8 @@ body {
 }
 
 .button {
-  background: #e0e0e0;
+  border-radius: 10px;
+  background: #bd8a99;
   height: 4.5rem;
   padding: 10px;
   display: flex;
@@ -49,7 +55,7 @@ body {
 }
 
 .button:hover {
-  border: 2px solid #242424;
+  border: 2px solid #c5688d;
 }
 
 .zero {
@@ -57,6 +63,6 @@ body {
 }
 
 .opt {
-  background: #f9891c;
+  background:#ab6388;
   color: white;
 }
